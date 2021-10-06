@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
             if(listAddresses != null && listAddresses.size()>0){
                 Log.i("PlaceInfo", listAddresses.get(0).toString());
-                address = "Addres: \n";
+                address = "Address: \n";
                 if(listAddresses.get(0).getSubThoroughfare() != null) {
                     address += listAddresses.get(0).getSubThoroughfare() + " ";
                 }
